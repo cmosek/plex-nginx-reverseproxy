@@ -4,10 +4,10 @@ This configuration will allow you to serve Plex via Nginx with Remote Access sup
  
 ## Minimal Requirements
  
-###Nginx:
+### Nginx:
 * Module `ngx_stream_ssl_preread_module` compiled and loaded
  
-###Plex:
+### Plex:
 * Remote Access - enable
 * Network - Custom server access URLs = `https://<your-domain>:443,http://<your-domain>:80`
 * Network - Secure connections = Preferred.
