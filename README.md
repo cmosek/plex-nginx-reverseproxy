@@ -10,8 +10,7 @@ This configuration will allow you to serve Plex via Nginx with Remote Access sup
 ### Plex:
 * Remote Access - enable
 * Network - Custom server access URLs = `https://<your-domain>:443,http://<your-domain>:80`
-* Network - Secure connections = Preferred.
-* ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Note you can force SSL by setting required and not adding the HTTP URL, however some players which do not support HTTPS (e.g: Roku, Playstations, some SmartTVs) will no longer function.`
+* Network - Secure connections = Preferred. _Note you can force SSL by setting required and not adding the HTTP URL, however some players which do not support HTTPS (e.g: Roku, Playstations, some SmartTVs) will no longer function._
  
 ## Comments
  
